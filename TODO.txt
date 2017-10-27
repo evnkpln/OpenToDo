@@ -1,1 +1,3 @@
 Make private default to false
+Configure authentication to allow users to edit only their own data
+Flesh out functionality and usability of lists
