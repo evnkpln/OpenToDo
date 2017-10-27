@@ -20,6 +20,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap'
 gem 'figaro'
+gem 'bcrypt'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   gem 'byebug'
@@ -27,6 +29,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda'
   gem 'faker'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'pry-rails'
 end
