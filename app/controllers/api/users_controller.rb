@@ -1,5 +1,5 @@
 class Api::UsersController < ApiController
-  before_action :authenticated?
+  before_action :authenticated?, except: [:create]
 
   def index
     render json: User.all, each_serializer: UserSerializer
